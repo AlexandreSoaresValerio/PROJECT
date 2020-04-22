@@ -1,0 +1,55 @@
+body{
+    background-color:black;
+    margin: 0px;
+    padding: 0px;
+}
+*{
+    box-sizing: border-box;
+}
+.title_head{
+    font-size: 80px;
+    font-weight:bold;
+    color: red;
+    text-align: center;
+}
+.title_description{
+    font-size: 25px;
+    font-weight:bold;
+    text-align: center;
+    color: red;
+}
+.section_img{
+    text-align: center;
+}
+.section_img img{
+    height: 500px;
+    border: 5px solid grey;
+}
+.description{
+    color: red;
+    text-align: center;
+    margin-top: 20px;
+}
+.life{
+    color: red;
+    text-align: center;
+    margin-top: 50px;
+}
+.assinatura{
+    background-color: red;
+    width:200px;
+    height: 100px;
+}
+.title_text{
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+.footer{
+    color: red;
+    border-top: 3px solid gray;
+    padding: 25px;
+    padding-left: 60px;
+    margin-top: 20px;
+    
+}
