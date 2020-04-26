@@ -8,6 +8,9 @@ body{
     width: 100%;
     background-attachment: fixed;
     font-family: 'Segoe UI';
+    overflow-y:scroll;
+    scrollbar-arrow-color: #c1c1c1;
+    margin-bottom: 500px;
 }
 *{
     box-sizing: border-box;
@@ -26,6 +29,7 @@ header ul {
 }
 header ul li{
     padding: 8px;
+    
 }
 header ul li a{
     text-decoration: none;
@@ -40,21 +44,53 @@ header ul li a:hover{
 .header_menu img{
     height: 20px;
     width: 20px;
-    margin-top: 5px;
-    margin-right: 15px;
+    margin-right: 20px;
     margin-left: 16px;
+    margin-top: 7px;
 }
 section{
-    display: block;
     height: 238px;
 }
 .logo{
     color: #eeeeee;
     font-size:92px;
-    width: 272px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 344px;
+    margin: 0 auto;
     margin-top: 80px;
     font-weight: 400;
     font-family: "Manrope";
+}
+.search{
+    margin: 0 auto;
+    text-align: center;
+}
+.search input{
+    width:561px;
+    border-radius: 100px;
+    height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    padding:20px;
+}
+.favorites_geral{
+    display: flex;
+}
+.favorites{
+    display: flex;
+    margin: 0 auto;
+}
+.favorites_item{
+    width: 112px;
+    height:128px;    
+}
+.favorites a{
+    height:128px;
+    text-align: center;
+}
+.fav{
+    width: 112px;
+    height: 112px;
+}
+.fav h4{
+    margin-top: 100px;    
 }
