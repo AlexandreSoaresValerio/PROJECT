@@ -1,16 +1,17 @@
 body{
+    border:0px;
     margin:0px;
     padding:0px;
-    background:url("../img/google.png");
-    background-position:center center;
-    background-size:cover;
     height: 100%;
     width: 100%;
+    background:url("../img/google.png");
+    background-position:center center;
+    background-size:cover;    
     background-attachment: fixed;
     font-family: 'Segoe UI';
     overflow-y:scroll;
     scrollbar-arrow-color: #c1c1c1;
-    margin-bottom: 500px;
+    margin:0 auto;
 }
 *{
     box-sizing: border-box;
@@ -28,8 +29,7 @@ header ul {
     list-style: none;   
 }
 header ul li{
-    padding: 8px;
-    
+    padding: 8px;    
 }
 header ul li a{
     text-decoration: none;
@@ -48,9 +48,6 @@ header ul li a:hover{
     margin-left: 16px;
     margin-top: 7px;
 }
-section{
-    height: 238px;
-}
 .logo{
     color: #eeeeee;
     font-size:92px;
@@ -64,10 +61,16 @@ section{
     margin: 0 auto;
     text-align: center;
 }
+.form_search img{
+    position:absolute;
+    height: 44px;
+    width: 25px;    
+}
 .search input{
     width:561px;
-    border-radius: 100px;
-    height: 40px;
+    border: 0.5px ;
+    border-radius: 40px;
+    height: 44px;
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 30px;
     padding:20px;
@@ -76,21 +79,37 @@ section{
     display: flex;
 }
 .favorites{
+    height:128px;
     display: flex;
     margin: 0 auto;
 }
 .favorites_item{
-    width: 112px;
-    height:128px;    
+    flex: 1;   
 }
 .favorites a{
-    height:128px;
+    margin-top: 45px;
+    width: 128px;
     text-align: center;
 }
-.fav{
-    width: 112px;
-    height: 112px;
+a{
+    text-decoration: none;
 }
-.fav h4{
-    margin-top: 100px;    
+.favorites a:hover{
+    transition: ease-in;
+    transition: 300ms ease-in-out;    
+    opacity: 0.8;
+    border-radius: 50%;
+}
+.favorites a h4:hover{
+    transition: 300ms ease-in-out;
+    opacity: 0.8;
+    border-radius: 50%;
+}
+.favorites_item img{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    align-items: center;
+    text-align: center;
+
 }
